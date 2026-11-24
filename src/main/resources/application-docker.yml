@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:postgres}:${DB_PORT:5432}/${DB_NAME:customer_support}
+    username: ${DB_USER:support}
+    password: ${DB_PASSWORD:support}
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+  data:
+    redis:
+      host: ${REDIS_HOST:redis}
+      port: ${REDIS_PORT:6379}
+      timeout: 2s
+
+app:
+  memory:
+    store: ${MEMORY_STORE:redis}
+  rag:
+    vector-store: ${RAG_VECTOR_STORE:pgvector}
+    dimension: ${RAG_DIMENSION:1536}
+
+management:
+  health:
+    redis:
+      enabled: true

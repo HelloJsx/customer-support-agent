@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:customer_support;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  data:
+    redis:
+      repositories:
+        enabled: false
+
+app:
+  memory:
+    store: in-memory
+  rag:
+    vector-store: none
+
+management:
+  health:
+    redis:
+      enabled: false
+
+logging:
+  level:
+    org.hibernate.SQL: WARN

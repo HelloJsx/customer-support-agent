@@ -1,0 +1,28 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Environment ###
+.env
+.env.local
+.env.*.local
+!.env.example
+
+### Logs ###
+logs/
+*.log
+
+### OS ###
+.DS_Store
+
+### Build output ###
+dist/
+build/
+out/

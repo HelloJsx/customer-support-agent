@@ -1,0 +1,25 @@
+{"id":"K01","message":"你好，我想咨询一下你们的会员权益","expectedIntent":"KNOWLEDGE","expectedTool":"knowledgeSearch","expectApproval":false}
+{"id":"K02","message":"你们的退货政策是什么？","expectedIntent":"KNOWLEDGE","expectedTool":"knowledgeSearch","expectApproval":false}
+{"id":"K03","message":"怎么修改收货地址？","expectedIntent":"KNOWLEDGE","expectedTool":"knowledgeSearch","expectApproval":false}
+{"id":"K04","message":"发票怎么开？","expectedIntent":"KNOWLEDGE","expectedTool":"knowledgeSearch","expectApproval":false}
+{"id":"K05","message":"保修期是多久？","expectedIntent":"KNOWLEDGE","expectedTool":"knowledgeSearch","expectApproval":false}
+{"id":"K06","message":"支持哪些支付方式？","expectedIntent":"KNOWLEDGE","expectedTool":"knowledgeSearch","expectApproval":false}
+{"id":"K07","message":"客服电话是多少？","expectedIntent":"KNOWLEDGE","expectedTool":"knowledgeSearch","expectApproval":false}
+{"id":"O01","message":"我的订单 ORD-2026001 到哪了？","expectedIntent":"ORDER","expectedTool":"queryOrder","expectApproval":false}
+{"id":"O02","message":"帮我查一下物流 ORD-2026002","expectedIntent":"ORDER","expectedTool":"queryOrder","expectApproval":false}
+{"id":"O03","message":"ORD-2026001 什么时候发货？","expectedIntent":"ORDER","expectedTool":"queryOrder","expectApproval":false}
+{"id":"O04","message":"订单 ORD-2026003 的状态","expectedIntent":"ORDER","expectedTool":"queryOrder","expectApproval":false}
+{"id":"O05","message":"快递单号 ORD-2026002","expectedIntent":"ORDER","expectedTool":"queryOrder","expectApproval":false}
+{"id":"R01","message":"我要退款，订单 ORD-2026001","expectedIntent":"REFUND","expectedTool":"checkRefundEligibility","expectApproval":true}
+{"id":"R02","message":"帮我申请退货 ORD-2026001","expectedIntent":"REFUND","expectedTool":"checkRefundEligibility","expectApproval":true}
+{"id":"R03","message":"帮我退钱，订单 ORD-2026004","expectedIntent":"REFUND","expectedTool":"checkRefundEligibility","expectApproval":false}
+{"id":"R04","message":"我想退货，订单 ORD-2026002","expectedIntent":"REFUND","expectedTool":"checkRefundEligibility","expectApproval":true}
+{"id":"R05","message":"商品有质量问题，我要退款","expectedIntent":"REFUND","expectedTool":null,"expectApproval":false}
+{"id":"E01","message":"我要投诉你们的服务","expectedIntent":"ESCALATION","expectedTool":"escalateTicket","expectApproval":false}
+{"id":"E02","message":"转人工客服","expectedIntent":"ESCALATION","expectedTool":"escalateTicket","expectApproval":false}
+{"id":"E03","message":"你们这是欺诈，我要举报","expectedIntent":"ESCALATION","expectedTool":"escalateTicket","expectApproval":false}
+{"id":"O06","message":"订单 ORD-9999999 到哪了","expectedIntent":"ORDER","expectedTool":"queryOrder","expectApproval":false}
+{"id":"K08","message":"退款什么时候到账？","expectedIntent":"KNOWLEDGE","expectedTool":"knowledgeSearch","expectApproval":false}
+{"id":"K09","message":"如何开发票？","expectedIntent":"KNOWLEDGE","expectedTool":"knowledgeSearch","expectApproval":false}
+{"id":"E04","message":"如何联系人工客服","expectedIntent":"ESCALATION","expectedTool":"escalateTicket","expectApproval":false}
+{"id":"K10","message":"你好","expectedIntent":"KNOWLEDGE","expectedTool":"knowledgeSearch","expectApproval":false}
